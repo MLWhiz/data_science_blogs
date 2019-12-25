@@ -1,5 +1,5 @@
 
-This repo is part of the object detection post:
+This repo is part of the object detection [post](https://towardsdatascience.com/plug-and-play-object-detection-code-in-5-simple-steps-f1975804373e):
 
 To run the code in this repo: 
 

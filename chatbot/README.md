@@ -1,2 +1,3 @@
-This is a repository for the post : https://mlwhiz.com/blog/2019/04/15/chatbot/
+This is a repository for the post : https://towardsdatascience.com/chatbots-arent-as-difficult-to-make-as-you-think-f7f90255b993
 
+I will try to distill some of the knowledge I acquired while working through a project in the [Natural Language Processing](https://click.linksynergy.com/link?id=lVarvwc5BD0&offerid=467035.11503135394&type=2&murl=https%3A%2F%2Fwww.coursera.org%2Flearn%2Flanguage-processing) course in the [Advanced machine learning specialization](https://www.coursera.org/specializations/aml?siteID=lVarvwc5BD0-AqkGMb7JzoCMW0Np1uLfCA&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0). 

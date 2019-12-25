@@ -1,6 +1,6 @@
 # cuGraph_Benchmark
 
-Part of my post on cuGraph and Rapids.
+Part of my [post](https://towardsdatascience.com/4-graph-algorithms-on-steroids-for-data-scientists-with-cugraph-43d784de8d0e) on cuGraph and Rapids.
 
 In my benchmark study, I use three datasets in increasing order of scale from the Stanford Large Network Dataset Collection. 
 
