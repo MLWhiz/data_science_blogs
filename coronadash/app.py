@@ -98,10 +98,13 @@ st.sidebar.markdown(f'''<div class="card text-white bg-warning mb-3" style="widt
 </div>''', unsafe_allow_html=True)
 
 
+country_death_cases = casedata.groupby(['countriesAndTerritories'])[['cases','deaths']].aggregate(np.sum).reset_index()
+country_death_cases['fatalityRate'] = country_death_cases['deaths']/country_death_cases['cases']*100
+country_death_cases = country_death_cases[country_death_cases['cases']>100].sort_values(by='fatalityRate',ascending=False) 
+st.sidebar.markdown("### Fatality Rates in countries with minimum 100 cases")
+st.sidebar.plotly_chart(px.bar(country_death_cases[:10].sort_values(by='fatalityRate'),y='countriesAndTerritories',x='fatalityRate',orientation='h'), use_container_width=True)
 
-
-
-newsapi = NewsApiClient(api_key='2a73c77e79b24945842977adbab1f129')
+newsapi = NewsApiClient(api_key='aedb6aa9bebb4011a4eb5447019dd592')
 
 # # Top News results every 6 minutes
 st.cache(ttl=360)
