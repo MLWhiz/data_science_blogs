@@ -17,7 +17,7 @@ from wordcloud import WordCloud, ImageColorGenerator, STOPWORDS
 import cv2
 import random
 import wget
-
+import os
 
 
 st.markdown(
@@ -42,8 +42,9 @@ st.markdown(
 
 ''',unsafe_allow_html=True
 )
-@st.cache()
+@st.cache(max_entries=1)
 def get_data(date):
+    os.system("rm cases.csv")
     url = "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"
     filename = wget.download(url,"cases.csv")
     casedata = pd.read_csv(filename, encoding='latin-1')
@@ -102,12 +103,13 @@ country_death_cases = casedata.groupby(['countriesAndTerritories'])[['cases','de
 country_death_cases['fatalityRate'] = country_death_cases['deaths']/country_death_cases['cases']*100
 country_death_cases = country_death_cases[country_death_cases['cases']>100].sort_values(by='fatalityRate',ascending=False) 
 st.sidebar.markdown("### Fatality Rates in countries with minimum 100 cases")
+# st.sidebar.table(country_death_cases[:10][['countriesAndTerritories','fatalityRate']])
 st.sidebar.plotly_chart(px.bar(country_death_cases[:10].sort_values(by='fatalityRate'),y='countriesAndTerritories',x='fatalityRate',orientation='h'), use_container_width=True)
 
-newsapi = NewsApiClient(api_key='aedb6aa9bebb4011a4eb5447019dd592')
+newsapi = NewsApiClient(api_key='a2c89a9419814a339ecb645c9440e469')
 
 # # Top News results every 6 minutes
-st.cache(ttl=360)
+st.cache(ttl=360,max_entries=20)
 def create_dataframe_top(queries,country):
     fulldata = pd.DataFrame() 
     for q in queries:
@@ -176,7 +178,7 @@ def create_wc_by(source):
     wc = WordCloud(background_color="white", max_words=1000, mask=mask, stopwords=stopwords,
                max_font_size=90, random_state=42, contour_width=3, contour_color='steelblue')
     wc.generate(text)
-    plt.figure(figsize=[30,30])
+    plt.figure(figsize=[20,20])
     plt.imshow(wc, interpolation='bilinear')
     plt.axis("off")
     return plt
@@ -200,7 +202,7 @@ def get_sources(country):
     return sources
 
 # set to update every 24 hours
-@st.cache(ttl = 60*60*24)
+@st.cache(ttl = 60*60*24,max_entries=20)
 def create_dataframe_last_30d(queries, sources):
     fulldata = pd.DataFrame()
     for q in queries:
