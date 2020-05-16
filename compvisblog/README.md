@@ -1,4 +1,4 @@
-Multiclass Image Classification
+# Multiclass Image Classification
 
 To run it on your own dataset:
 
