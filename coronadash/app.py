@@ -19,7 +19,7 @@ import random
 import wget
 import os
 
-
+api_keys = ['acd20ab7294b4c2998d1368a39983253','a6ce43de65624b38b77583a8fb169a2f','f0ca9830a4164802b7a97a0354578333','4c10ff42cd0e42e79b8d00929b54149e','96366c24528b4f32981623578f932899','9312360e92e94909af3113c06bcbcdfc','4e44f023ead44a299e0484aa36d5e8c3']
 st.markdown(
         f"""
 <style>
@@ -106,11 +106,11 @@ st.sidebar.markdown("### Fatality Rates in countries with minimum 100 cases")
 # st.sidebar.table(country_death_cases[:10][['countriesAndTerritories','fatalityRate']])
 st.sidebar.plotly_chart(px.bar(country_death_cases[:10].sort_values(by='fatalityRate'),y='countriesAndTerritories',x='fatalityRate',orientation='h'), use_container_width=True)
 
-newsapi = NewsApiClient(api_key='a2c89a9419814a339ecb645c9440e469')
 
 # # Top News results every 6 minutes
 st.cache(ttl=360,max_entries=20)
 def create_dataframe_top(queries,country):
+    newsapi = NewsApiClient(api_key=random.choice(api_keys))
     fulldata = pd.DataFrame() 
     for q in queries:
         json_data = newsapi.get_top_headlines(q=q,
@@ -197,6 +197,7 @@ st.markdown("<center>"+md.convert(top_results_markdown)+"</center>",unsafe_allow
 
 @st.cache()
 def get_sources(country):
+    newsapi = NewsApiClient(api_key=random.choice(api_keys))
     sources = newsapi.get_sources(country=country)
     sources = [x['id'] for x in sources['sources']]
     return sources
@@ -204,6 +205,7 @@ def get_sources(country):
 # set to update every 24 hours
 @st.cache(ttl = 60*60*24,max_entries=20)
 def create_dataframe_last_30d(queries, sources):
+    newsapi = NewsApiClient(api_key=random.choice(api_keys))
     fulldata = pd.DataFrame()
     for q in queries:
         for s in sources:
