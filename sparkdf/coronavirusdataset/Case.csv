@@ -1,0 +1,116 @@
+case_id,province,city,group,infection_case,confirmed,latitude,longitude
+1000001,Seoul,Yongsan-gu,TRUE,Itaewon Clubs,72,37.538621,126.992652
+1000002,Seoul,Guro-gu,TRUE,Guro-gu Call Center,98,37.508163,126.884387
+1000003,Seoul,Dongdaemun-gu,TRUE,Dongan Church,20,37.592888,127.056766
+1000004,Seoul,Guro-gu,TRUE,Manmin Central Church,41,37.481059,126.894343
+1000005,Seoul,Eunpyeong-gu,TRUE,Eunpyeong St. Mary's Hospital,14,37.63369,126.9165
+1000006,Seoul,Seongdong-gu,TRUE,Seongdong-gu APT,13,37.55713,127.0403
+1000007,Seoul,Jongno-gu,TRUE,Jongno Community Center,10,37.57681,127.006
+1000008,Seoul,Jung-gu,TRUE,Jung-gu Fashion Company,7,37.562405,126.984377
+1000009,Seoul,from other city,TRUE,Shincheonji Church,8,-,-
+1000010,Seoul,-,FALSE,overseas inflow,321,-,-
+1000011,Seoul,-,FALSE,contact with patient,18,-,-
+1000012,Seoul,-,FALSE,etc,24,-,-
+1100001,Busan,Dongnae-gu,TRUE,Onchun Church,39,35.21628,129.0771
+1100002,Busan,from other city,TRUE,Shincheonji Church,12,-,-
+1100003,Busan,Suyeong-gu,TRUE,Suyeong-gu Kindergarten,5,35.16708,129.1124
+1100004,Busan,Haeundae-gu,TRUE,Haeundae-gu Catholic Church,6,35.20599,129.1256
+1100005,Busan,Jin-gu,TRUE,Jin-gu Academy,4,35.17371,129.0633
+1100006,Busan,from other city,TRUE,Cheongdo Daenam Hospital,1,-,-
+1100007,Busan,-,FALSE,overseas inflow,25,-,-
+1100008,Busan,-,FALSE,contact with patient,18,-,-
+1100009,Busan,-,FALSE,etc,29,-,-
+1200001,Daegu,Nam-gu,TRUE,Shincheonji Church,4510,35.84008,128.5667
+1200002,Daegu,Dalseong-gun,TRUE,Second Mi-Ju Hospital,196,35.857375,128.466651
+1200003,Daegu,Seo-gu,TRUE,Hansarang Convalescent Hospital,128,35.885592,128.556649
+1200004,Daegu,Dalseong-gun,TRUE,Daesil Convalescent Hospital,100,35.857393,128.466653
+1200005,Daegu,Dong-gu,TRUE,Fatima Hospital,37,35.88395,128.624059
+1200006,Daegu,from other city,TRUE,Cheongdo Daenam Hospital,2,-,-
+1200007,Daegu,-,FALSE,overseas inflow,24,-,-
+1200008,Daegu,-,FALSE,contact with patient,929,-,-
+1200009,Daegu,-,FALSE,etc,724,-,-
+1300001,Gwangju,from other city,TRUE,Shincheonji Church,9,-,-
+1300002,Gwangju,-,FALSE,overseas inflow,20,-,-
+1300003,Gwangju,-,FALSE,contact with patient,1,-,-
+1300004,Gwangju,-,FALSE,etc,0,-,-
+1400001,Incheon,from other city,TRUE,Guro-gu Call Center,20,-,-
+1400002,Incheon,from other city,TRUE,Shincheonji Church,2,-,-
+1400003,Incheon,-,FALSE,overseas inflow,48,-,-
+1400004,Incheon,-,FALSE,contact with patient,5,-,-
+1400005,Incheon,-,FALSE,etc,4,-,-
+1500001,Daejeon,Seo-gu,TRUE,Korea Forest Engineer Institute,3,36.358123,127.388856
+1500002,Daejeon,from other city,TRUE,Shincheonji Church,2,-,-
+1500003,Daejeon,from other city,TRUE,Seosan-si Laboratory,2,-,-
+1500004,Daejeon,-,FALSE,overseas inflow,10,-,-
+1500005,Daejeon,-,FALSE,contact with patient,8,-,-
+1500006,Daejeon,-,FALSE,etc,9,-,-
+1600001,Ulsan,from other city,TRUE,Shincheonji Church,16,-,-
+1600002,Ulsan,-,FALSE,overseas inflow,15,-,-
+1600003,Ulsan,-,FALSE,contact with patient,4,-,-
+1600004,Ulsan,-,FALSE,etc,7,-,-
+1700001,Sejong,Sejong,TRUE,Ministry of Oceans and Fisheries,30,36.504713,127.265172
+1700002,Sejong,Sejong,TRUE,gym facility in Sejong,8,36.48025,127.289
+1700003,Sejong,from other city,TRUE,Shincheonji Church,1,-,-
+1700004,Sejong,-,FALSE,overseas inflow,3,-,-
+1700005,Sejong,-,FALSE,contact with patient,3,-,-
+1700006,Sejong,-,FALSE,etc,1,-,-
+2000001,Gyeonggi-do,Seongnam-si,TRUE,River of Grace Community Church,72,37.455687,127.161627
+2000002,Gyeonggi-do,from other city,TRUE,Guro-gu Call Center,48,-,-
+2000003,Gyeonggi-do,Uijeongbu-si,TRUE,Uijeongbu St. Mary’s Hospital,50,37.758635,127.077716
+2000004,Gyeonggi-do,from other city,TRUE,Shincheonji Church,29,-,-
+2000005,Gyeonggi-do,Seongnam-si,TRUE,Bundang Jesaeng Hospital,22,37.38833,127.1218
+2000006,Gyeonggi-do,Suwon-si,TRUE,Suwon Saeng Myeong Saem Church,10,37.2376,127.0517
+2000007,Gyeonggi-do,-,FALSE,overseas inflow,225,-,-
+2000008,Gyeonggi-do,-,FALSE,contact with patient,57,-,-
+2000009,Gyeonggi-do,-,FALSE,etc,43,-,-
+2000010,Gyeonggi-do,from other city,TRUE,Itaewon Clubs,8,-,-
+3000001,Gangwon-do,from other city,TRUE,Shincheonji Church,17,-,-
+3000002,Gangwon-do,from other city,TRUE,Uijeongbu St. Mary’s Hospital,10,-,-
+3000003,Gangwon-do,Wonju-si,TRUE,Wonju-si Apartments,3,37.342762,127.983815
+3000004,Gangwon-do,-,FALSE,overseas inflow,14,-,-
+3000005,Gangwon-do,-,FALSE,contact with patient,0,-,-
+3000006,Gangwon-do,-,FALSE,etc,7,-,-
+4000001,Chungcheongbuk-do,from other city,TRUE,Shincheonji Church,6,-,-
+4000002,Chungcheongbuk-do,Goesan-gun,TRUE,Goesan-gun Jangyeon-myeon,11,36.82422,127.9552
+4000003,Chungcheongbuk-do,-,FALSE,overseas inflow,7,-,-
+4000004,Chungcheongbuk-do,-,FALSE,contact with patient,6,-,-
+4000005,Chungcheongbuk-do,-,FALSE,etc,8,-,-
+4100001,Chungcheongnam-do,Cheonan-si,TRUE,gym facility in Cheonan,103,36.81503,127.1139
+4100002,Chungcheongnam-do,Seosan-si,TRUE,Seosan-si Laboratory,9,37.000354,126.354443
+4100003,Chungcheongnam-do,-,FALSE,overseas inflow,14,-,-
+4100004,Chungcheongnam-do,-,FALSE,contact with patient,1,-,-
+4100005,Chungcheongnam-do,-,FALSE,etc,10,-,-
+5000001,Jeollabuk-do,from other city,TRUE,Shincheonji Church,1,-,-
+5000002,Jeollabuk-do,-,FALSE,overseas inflow,9,-,-
+5000003,Jeollabuk-do,-,FALSE,etc,5,-,-
+5100001,Jeollanam-do,Muan-gun,TRUE,Manmin Central Church,2,35.078825,126.316746
+5100002,Jeollanam-do,from other city,TRUE,Shincheonji Church,1,-,-
+5100003,Jeollanam-do,-,FALSE,overseas inflow,8,-,-
+5100004,Jeollanam-do,-,FALSE,contact with patient,2,-,-
+5100005,Jeollanam-do,-,FALSE,etc,3,-,-
+6000001,Gyeongsangbuk-do,from other city,TRUE,Shincheonji Church,566,-,-
+6000002,Gyeongsangbuk-do,Cheongdo-gun,TRUE,Cheongdo Daenam Hospital,120,35.64887,128.7368
+6000003,Gyeongsangbuk-do,Bonghwa-gun,TRUE,Bonghwa Pureun Nursing Home,68,36.92757,128.9099
+6000004,Gyeongsangbuk-do,from other city,TRUE,Pilgrimage to Israel,49,-,-
+6000005,Gyeongsangbuk-do,Chilgok-gun,TRUE,Milal Shelter,36,36.0581,128.4941
+6000006,Gyeongsangbuk-do,Gyeongsan-si,TRUE,Gyeongsan Seorin Nursing Home,66,35.782149,128.801498
+6000007,Gyeongsangbuk-do,Yechun-gun,TRUE,Yechun-gun,40,36.646845,128.437416
+6000008,Gyeongsangbuk-do,Gyeongsan-si,TRUE,Gyeongsan Jeil Silver Town,17,35.84819,128.7621
+6000009,Gyeongsangbuk-do,Gyeongsan-si,TRUE,Gyeongsan Cham Joeun Community Center,16,35.82558,128.7373
+6000010,Gyeongsangbuk-do,-,FALSE,overseas inflow,10,-,-
+6000011,Gyeongsangbuk-do,-,FALSE,contact with patient,192,-,-
+6000012,Gyeongsangbuk-do,-,FALSE,etc,134,-,-
+6100001,Gyeongsangnam-do,from other city,TRUE,Shincheonji Church,32,-,-
+6100002,Gyeongsangnam-do,Geochang-gun,TRUE,Geochang Church,10,35.68556,127.9127
+6100003,Gyeongsangnam-do,Geochang-gun,TRUE,Geochang-gun Woongyang-myeon,8,35.805681,127.917805
+6100004,Gyeongsangnam-do,Jinju-si,TRUE,Wings Tower,10,35.164845,128.126969
+6100005,Gyeongsangnam-do,Changwon-si,TRUE,Hanmaeum Changwon Hospital,7,35.22115,128.6866
+6100006,Gyeongsangnam-do,Changnyeong-gun,TRUE,Changnyeong Coin Karaoke,7,35.54127,128.5008
+6100007,Gyeongsangnam-do,from other city,TRUE,Onchun Church,2,-,-
+6100008,Gyeongsangnam-do,-,FALSE,overseas inflow,15,-,-
+6100009,Gyeongsangnam-do,-,FALSE,contact with patient,6,-,-
+6100010,Gyeongsangnam-do,-,FALSE,etc,18,-,-
+7000001,Jeju-do,-,FALSE,overseas inflow,9,-,-
+7000002,Jeju-do,-,FALSE,contact with patient,0,-,-
+7000003,Jeju-do,-,FALSE,etc,4,-,-
+7000004,Jeju-do,from other city,TRUE,Itaewon Clubs,1,-,-
