@@ -1,0 +1,9 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: training/data/images/train/
+val: training/data/images/valid/
+
+# number of classes
+nc: 2
+
+# class names
+names: ['Cricketball', 'Football']
