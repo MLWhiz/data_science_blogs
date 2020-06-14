@@ -1,6 +1,6 @@
 # Yolov5 Custom Data:
 
-![](https://cdn-images-1.medium.com/max/1200/1*QvCHyXdY36jpwoz-2_n9yQ.gif)
+![](messigif.gif)
 
 This is an implementation of the Ultralytics Yolov5 github repository on custom data. To run this code on the Football vs Cricket Data:
 
