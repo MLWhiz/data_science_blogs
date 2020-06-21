@@ -1,9 +1,31 @@
-# GAN_Project - Create Anime Character.
+# How to Use FastAPI
 
-Run with Google Colab here:
-https://colab.research.google.com/drive/1Mxbfn0BUW4BlgEPc-minaE_M0_PaYIIX
+To run this code;
 
-All instructions in Notebook
-We will be using data from Anime face data: https://drive.google.com/file/d/1i1M7GQZY5e8TYnFyD0ov-J7YjrI_YIGI/view?usp=sharing
+1. Install Fastapi and uvicorn using:
 
-You can also read the [blog](https://towardsdatascience.com/an-end-to-end-introduction-to-gans-bf253f1fa52f?) for this code. 
+```
+pip install fastapi
+pip install uvicorn
+```
+
+2. Clone this repo.
+
+```
+git clone https://github.com/MLWhiz/data_science_blogs
+cd data_science_blogs/fastapi
+```
+
+3. To run the GET Example, run on terminal: 
+```
+$ uvicorn fastapiapp:app --reload
+```
+4. To run the PUT Example, run on terminal:
+```
+$ uvicorn fastapi_put:app --reload
+```
+
+5. Open `http://127.0.0.1:8000/docs` in browser to use GUI to test the API. 
+
+For more details,check out this blog:
+[A layman guide for Data Scientists to create API in minutes]()
