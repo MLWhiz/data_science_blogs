@@ -22,4 +22,4 @@ $ python train.py --img 640 --batch 16 --epochs 300--data training/dataset.yaml 
 `python detect.py --weights weights/best.pt`
 
 
-You can read more on my blog.
+You can read more on my blog : [Create an End to End Object Detection Pipeline using Yolov5](https://lionbridge.ai/articles/create-an-end-to-end-object-detection-pipeline-using-yolov5/)
