@@ -28,4 +28,4 @@ $ uvicorn fastapi_put:app --reload
 5. Open `http://127.0.0.1:8000/docs` in browser to use GUI to test the API. 
 
 For more details,check out this blog:
-[A layman guide for Data Scientists to create API in minutes]()
+[A layman guide for Data Scientists to create API in minutes](https://towardsdatascience.com/a-layman-guide-for-data-scientists-to-create-apis-in-minutes-31e6f451cd2f)
