@@ -10,4 +10,4 @@ So, I tried to do this myself using some help from FastAPI documentation. In thi
 - Deploying FastAPI using Docker
 - An End to End App with UI
 
-[Read More](https://medium.com/@rahul_agarwal/deployment-could-be-easy-a-data-scientists-guide-to-deploy-an-image-detection-fastapi-api-using-a6608a0e7f26)
+[Read More](https://towardsdatascience.com/deployment-could-be-easy-a-data-scientists-guide-to-deploy-an-image-detection-fastapi-api-using-329cdd80400)
