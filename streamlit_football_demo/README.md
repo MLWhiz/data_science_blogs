@@ -6,6 +6,11 @@ While in the past, a well-made visualization or a small PPT used to be enough fo
 
 This code is part of my post [How to write Web apps using simple Python for Data Scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
 
+
+Pre Requisite
+```
+pip install plotly-express
+```
 To Run app:
 
 ```
