@@ -3,7 +3,7 @@
 I have been pretty careless with keeping track of the code I write for my blogs. 
 
 So I thought of creating a repository to keep track of all the code that I end up writing for my blog posts. 
-Although there are a lot of other blog posts which don't have codes here. So, follow me up at [**Medium**](https://medium.com/@rahul_agarwal?source=post_page---------------------------) or Subscribe to my [**blog**](https://www.mlwhiz.com/subscribe) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz?source=post_page---------------------------).
+Although there are a lot of other blog posts which don't have codes here. So, follow me up at [**Medium**](https://mlwhiz.medium.com/) or Subscribe to my [**blog**](https://www.mlwhiz.com/subscribe) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz?source=post_page---------------------------).
 
 # Newer posts (mlwhiz.com)
 
