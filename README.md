@@ -5,20 +5,69 @@ I have been pretty careless with keeping track of the code I write for my blogs.
 So I thought of creating a repository to keep track of all the code that I end up writing for my blog posts. 
 Although there are a lot of other blog posts which don't have codes here. So, follow me up at [**Medium**](https://medium.com/@rahul_agarwal?source=post_page---------------------------) or Subscribe to my [**blog**](http://eepurl.com/dbQnuX?source=post_page---------------------------) to be informed about them. As always, I welcome feedback and constructive criticism and can be reached on Twitter [@mlwhiz](https://twitter.com/MLWhiz?source=post_page---------------------------).
 
-I would be also grateful if you consider [Becoming a Patron!](https://www.patreon.com/bePatron?u=28135435) of my work. Thanks!!!
+# Newer posts (mlwhiz.com)
 
-# Newer posts
+Each series has its own repo. Code links point to the folder for that post. The ML Careers posts have no code, so they link to a written summary.
 
-My recent posts are on [mlwhiz.com](https://www.mlwhiz.com), and each series has its own repo with code and a summary of every post:
+## RecSys series ([recsysSeries](https://github.com/MLWhiz/recsysSeries))
 
-| Series | Repo |
-|--------|------|
-| RecSys (12 posts) | [recsysSeries](https://github.com/MLWhiz/recsysSeries) |
-| GenAI Fundamentals (5 posts) | [genai-fundamentals](https://github.com/MLWhiz/genai-fundamentals) |
-| Generative AI (15 posts) | [genai](https://github.com/MLWhiz/genai) |
-| ML Careers (6 posts) | [ml-careers](https://github.com/MLWhiz/ml-careers) |
+| # | Post | Blog | Code |
+|---|------|------|------|
+| 1 | RecSys Fundamentals: The Art and Science of Digital Matchmaking | [Blog](https://www.mlwhiz.com/p/the-recommenders-playbook-algorithms) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/1.%20Recsys%20Fundamentals) |
+| 2 | How Recommendation Systems Learned to Think | [Blog](https://www.mlwhiz.com/p/the-algorithmic-journey-of-recommender) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/1.%20Recsys%20Fundamentals) |
+| 3 | The 3-Stage Funnel Behind Every Modern Recommender System | [Blog](https://www.mlwhiz.com/p/the-recommendation-engine-under-the) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/2.%20Two%20Tower) |
+| 4 | How YouTube Finds Your Next Video in Milliseconds | [Blog](https://www.mlwhiz.com/p/building-youtube-scale-recommendation) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/2.%20Two%20Tower) |
+| 5 | Vector Search at Scale: The Production Engineer's Guide | [Blog](https://www.mlwhiz.com/p/vector-search-at-scale-the-missing) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/6.%20Vector%20Search%20at%20Scale) |
+| 6 | From Candidates to Clicks: The Engineering Anatomy of Ranking | [Blog](https://www.mlwhiz.com/p/from-candidates-to-clicks-the-engineering) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/7.%20Ranking) |
+| 7 | 3 Modern Approaches to Solving Cold Start in RecSys | [Blog](https://www.mlwhiz.com/p/cold-start-problem-recsys-modern-approaches) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/8.%20Cold%20Start) |
+| 8 | Your Ranking Model Is Right. Your Recommendations Are Wrong | [Blog](https://www.mlwhiz.com/p/reranking-recsys-diversity-freshness) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/9.%20Reranking) |
+| 9 | From RNNs to Transformers: Building Sequential Recommenders (Part 1) | [Blog](https://www.mlwhiz.com/p/rnns-to-transformers-sequential-recommenders) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/3.%20Sequential%20Recommenders) |
+| 10 | From Random IDs to Semantic IDs: Building a Generative Recommender from Scratch | [Blog](https://www.mlwhiz.com/p/semantic-ids-rqvae-generative-recommender) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/4.%20Semantic%20Ids) |
+| 11 | HSTU: How Meta Built a Trillion-Parameter Recommender That Actually Scales | [Blog](https://www.mlwhiz.com/p/hstu-how-meta-built-a-trillion-parameter) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/5.%20HSTU) |
+| 12 | HSTU From Scratch in PyTorch - A complete Walkthrough | [Blog](https://www.mlwhiz.com/p/hstu-from-scratch-in-pytorch-a-complete) | [Code](https://github.com/MLWhiz/recsysSeries/tree/main/5.%20HSTU) |
 
-The tables below cover the older posts.
+## GenAI Fundamentals ([genai-fundamentals](https://github.com/MLWhiz/genai-fundamentals))
+
+| # | Post | Blog | Code |
+|---|------|------|------|
+| 1 | Understanding Transformers, the MLE Way | [Blog](https://www.mlwhiz.com/p/transformers) | [Code](https://github.com/MLWhiz/genai-fundamentals/tree/main/1.%20Understanding%20Transformers) |
+| 2 | The Transformer, Demystified: Let's Actually Build One | [Blog](https://www.mlwhiz.com/p/the-transformer-demystified-lets) | [Code](https://github.com/MLWhiz/genai-fundamentals/tree/main/2.%20Transformer%20from%20Scratch) |
+| 3 | What is an LLM? Tokens, Embeddings, and the Big Picture | [Blog](https://www.mlwhiz.com/p/what-is-an-llm-tokens-embeddings) | [Code](https://github.com/MLWhiz/genai-fundamentals/tree/main/3.%20What%20is%20an%20LLM) |
+| 4 | Pretraining 101: Data, Scale, and the Loss Function | [Blog](https://www.mlwhiz.com/p/pretraining-101-data-scale-and-the) | [Code](https://github.com/MLWhiz/genai-fundamentals/tree/main/4.%20Pretraining%20101) |
+| 5 | Post-Training 101: From Base Model to Assistant | [Blog](https://www.mlwhiz.com/p/post-training-101-from-base-model) | [Code](https://github.com/MLWhiz/genai-fundamentals/tree/main/5.%20Post-Training%20101) |
+
+## Generative AI ([genai](https://github.com/MLWhiz/genai))
+
+| # | Post | Blog | Code |
+|---|------|------|------|
+| 1 | GenAI Series: A Review of the Architectural Journey | [Blog](https://www.mlwhiz.com/p/genai-series-a-review-of-the-architectural) | [Code](https://github.com/MLWhiz/genai/tree/main/1_GenAiArchitecturalJourney) |
+| 2 | GenAI Series: The Art and Science of Prompt Engineering | [Blog](https://www.mlwhiz.com/p/genai-series-the-art-and-science) | [Code](https://github.com/MLWhiz/genai/tree/main/2_PromptEngineering) |
+| 3 | GenAI Series: My Tryst with AI-Assisted Development | [Blog](https://www.mlwhiz.com/p/genai-series-my-tryst-with-ai-assisted) | [Code](https://github.com/MLWhiz/genai/tree/main/3_VibeCoding) |
+| 4 | GenAI Series: Building RAG Applications | [Blog](https://www.mlwhiz.com/p/genai-series-building-rag-applications) | [Code](https://github.com/MLWhiz/genai/tree/main/4_RAG) |
+| 5 | Advanced RAG Techniques for ML Engineers: Beyond Vector Search | [Blog](https://www.mlwhiz.com/p/genai-series-beyond-basic-rag-building) | [Code](https://github.com/MLWhiz/genai/tree/main/5_Advanced_RAG) |
+| 6 | Advanced PEFT Techniques for Model Fine-tuning | [Blog](https://www.mlwhiz.com/p/fine-tuning-llms-your-guide-to-peft) | [Code](https://github.com/MLWhiz/genai/tree/main/6_Advanced_PEFT) |
+| 7 | Traditional RAG is Dead, Long Live GraphRAG | [Blog](https://www.mlwhiz.com/p/traditional-rag-is-dead-long-live) | [Code](https://github.com/MLWhiz/genai/tree/main/7_GraphRAG) |
+| 8 | Why LLMs Won't Replace Programmers: A Reality Check | [Blog](https://www.mlwhiz.com/p/why-llms-wont-replace-programmers) | [Code](https://github.com/MLWhiz/genai/tree/main/8_Why_LLMs_Wont_Replace_Programmers) |
+| 9 | GenAI 101: How Generative AI is Rewriting the Rules for ML Engineers | [Blog](https://www.mlwhiz.com/p/genai-101-how-generative-ai-is-rewriting) | [Code](https://github.com/MLWhiz/genai/tree/main/9_GenAI_101) |
+| 10 | Did Apple Just Burst the AI Reasoning Bubble? I don't think so | [Blog](https://www.mlwhiz.com/p/the-hard-truth-about-ai-reasoning) | [Code](https://github.com/MLWhiz/genai/tree/main/10_AI_Reasoning) |
+| 11 | Which AI Subscription is Actually Worth Your Money? | [Blog](https://www.mlwhiz.com/p/which-ai-subscription-is-actually) | [Code](https://github.com/MLWhiz/genai/tree/main/11_Which_AI_Subscription) |
+| 12 | The #1 Reason Your GenAI Project Will Fail in Production (and the 4 Pillars to Prevent It) | [Blog](https://www.mlwhiz.com/p/from-prototype-to-production-mlops) | [Code](https://github.com/MLWhiz/genai/tree/main/12_GenAI_In_Production) |
+| 13 | What Production Deployments Taught Me About ReAct vs Function Calling | [Blog](https://www.mlwhiz.com/p/what-production-deployments-taught) | [Code](https://github.com/MLWhiz/genai/tree/main/13_ReAct_vs_Function_Calling) |
+| 14 | I Use Claude Code Every Day. Here's the Setup That Actually Matters | [Blog](https://www.mlwhiz.com/p/i-use-claude-code-every-day-heres) | [Code](https://github.com/MLWhiz/genai/tree/main/14_Claude_Code_Daily_Setup) |
+| 15 | 5 Things Meta Muse Actually Does, and the Engineering Behind Each One | [Blog](https://www.mlwhiz.com/p/6-things-meta-muse-actually-does) | [Code](https://github.com/MLWhiz/genai/tree/main/15_Meta_Muse) |
+
+## ML Careers ([ml-careers](https://github.com/MLWhiz/ml-careers))
+
+| # | Post | Blog | Code |
+|---|------|------|------|
+| 1 | How I cracked my MLE interview at Meta | [Blog](https://www.mlwhiz.com/p/mle-fb-interview) | [Summary (no code)](https://github.com/MLWhiz/ml-careers/tree/main/1.%20Meta%20MLE%20Interview%20Loop) |
+| 2 | The Real-World Guide to Machine Learning Careers in 2025 | [Blog](https://www.mlwhiz.com/p/the-real-world-guide-to-machine-learning) | [Summary (no code)](https://github.com/MLWhiz/ml-careers/tree/main/2.%20Real-World%20Guide%20to%20ML%20Careers%202025) |
+| 3 | Crack ML System Design Interviews Like a Pro - Part 1 | [Blog](https://www.mlwhiz.com/p/crack-ml-system-design-interviews) | [Summary (no code)](https://github.com/MLWhiz/ml-careers/tree/main/3.%20ML%20System%20Design%20Part%201) |
+| 4 | Crack ML System Design Interviews Like a Pro - Part 2 | [Blog](https://www.mlwhiz.com/p/crack-ml-system-design-interviews-f30) | [Summary (no code)](https://github.com/MLWhiz/ml-careers/tree/main/4.%20ML%20System%20Design%20Part%202) |
+| 5 | How to Crack FAANG Coding Interviews? | [Blog](https://www.mlwhiz.com/p/how-to-crack-faang-coding-interviews) | [Summary (no code)](https://github.com/MLWhiz/ml-careers/tree/main/5.%20FAANG%20Coding%20Interviews) |
+| 6 | Claude Code vs. Your ML Career: A 2026 Reality Check | [Blog](https://www.mlwhiz.com/p/will-claude-code-take-your-ml-job) | [Summary (no code)](https://github.com/MLWhiz/ml-careers/tree/main/6.%20Claude%20Code%20vs%20Your%20ML%20Career) |
+
+# Older posts (code in this repo)
 
 # Deep Learning
 
