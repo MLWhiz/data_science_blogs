@@ -13,7 +13,7 @@ pip install uvicorn
 
 ```
 git clone https://github.com/MLWhiz/mlwhiz-blog-index
-cd data_science_blogs/fastapi
+cd mlwhiz-blog-index/fastapi
 ```
 
 3. To run the GET Example, run on terminal: 
