@@ -7,6 +7,19 @@ Although there are a lot of other blog posts which don't have codes here. So, fo
 
 I would be also grateful if you consider [Becoming a Patron!](https://www.patreon.com/bePatron?u=28135435) of my work. Thanks!!!
 
+# Newer posts
+
+My recent posts are on [mlwhiz.com](https://www.mlwhiz.com), and each series has its own repo with code and a summary of every post:
+
+| Series | Repo |
+|--------|------|
+| RecSys (12 posts) | [recsysSeries](https://github.com/MLWhiz/recsysSeries) |
+| GenAI Fundamentals (5 posts) | [genai-fundamentals](https://github.com/MLWhiz/genai-fundamentals) |
+| Generative AI (15 posts) | [genai](https://github.com/MLWhiz/genai) |
+| ML Careers (6 posts) | [ml-careers](https://github.com/MLWhiz/ml-careers) |
+
+The tables below cover the older posts.
+
 # Deep Learning
 
 | Deep Learning                                                                  | BlogLink                                                                                                               | CodeLink                                                                          |
@@ -17,6 +30,10 @@ I would be also grateful if you consider [Becoming a Patron!](https://www.patreo
 | End to End Multiclass Image Classification Using Pytorch and Transfer Learning | [Blog](https://lionbridge.ai/articles/end-to-end-multiclass-image-classification-using-pytorch-and-transfer-learning/) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/compvisblog)      |
 | Using Deep Learning for End to End Multiclass Text Classification              | [Blog](https://towardsdatascience.com/using-deep-learning-for-end-to-end-multiclass-text-classification-39b46aecac81)  | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/multiclass)       |
 | Object detection using mask-RCNN on custom Dataset                             | [Blog](https://towardsdatascience.com/plug-and-play-object-detection-code-in-5-simple-steps-f1975804373e)              | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/object_detection) |
+| The Most Complete Guide to PyTorch for Data Scientists | [Blog](https://www.mlwhiz.com/p/pytorch_guide) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/pytorch_guide) |
+| A Layman's Introduction to GANs for Data Scientists using PyTorch | [Blog](https://www.mlwhiz.com/p/pyt_gan) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/pytorchgan) |
+| Understanding Transformers, the Programming Way | [Blog](https://www.mlwhiz.com/p/create-transformer-from-scratch) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/transformers) |
+| How to Create an End to End Object Detector using Yolov5 | [Blog](https://www.mlwhiz.com/p/yolov5) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/yolov5CustomData) |
 
 
 # Data Science
@@ -31,6 +48,9 @@ I would be also grateful if you consider [Becoming a Patron!](https://www.patreo
 | How to write Web apps using simple Python for Data Scientists? | [Blog](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/streamlit_football_demo) |
 | Using Gradient Boosting for Time Series prediction tasks       | [Blog](https://towardsdatascience.com/using-gradient-boosting-for-time-series-prediction-tasks-600fac66a5fc?)     | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/time_series_xgb)         |
 | Lightning Fast XGBoost on Multiple GPUs                        | [Blog](https://towardsdatascience.com/lightning-fast-xgboost-on-multiple-gpus-32710815c7c3)                       | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/xgb_dask)                |
+| How to use SQL with Pandas? | [Blog](https://www.mlwhiz.com/p/pandasql) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/pandasql) |
+| A Layman's Guide for Data Scientists to create APIs in minutes | [Blog](https://www.mlwhiz.com/p/fastapi_for_data_scientists) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/fastapi) |
+| Deployment could be easy: A Data Scientist's Guide to deploy an Image detection FastAPI API using Amazon ec2 | [Blog](https://www.mlwhiz.com/p/deployment_fastapi) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/deployFastApi) |
 
 
 # BigData
@@ -42,3 +62,9 @@ I would be also grateful if you consider [Becoming a Patron!](https://www.patreo
 | 100x faster Hyperparameter Search Framework with Pyspark        | [Blog](https://towardsdatascience.com/10-1000x-faster-parallelized-randomized-search-with-pyspark-4de19e44f5e6)     | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/spark_hyperparams_tuning) |
 | The Hitchhikers guide to handle Big Data using Spark            | [Blog](https://towardsdatascience.com/the-hitchhikers-guide-to-handle-big-data-using-spark-90b9be0fe89a)            | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/spark_post)               |
 | The Most Complete Guide to pySpark DataFrames                   | [Blog](https://towardsdatascience.com/the-most-complete-guide-to-pyspark-dataframes-2702c343b2e8)                   | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/sparkdf)                  |
+
+
+# Other
+
+- [`sparkwindowfunc`](https://github.com/MLWhiz/data_science_blogs/tree/master/sparkwindowfunc): a notebook on Spark window functions using the coronavirus dataset. It has no matching post link yet.
+- [`resources`](https://github.com/MLWhiz/data_science_blogs/tree/master/resources): a spreadsheet of free and free-to-audit CS and data science courses, from [Become an ML Engineer with these courses from Amazon and Google](https://www.mlwhiz.com/p/mlengineercourses).
