@@ -12,7 +12,7 @@ pip install uvicorn
 2. Clone this repo.
 
 ```
-git clone https://github.com/MLWhiz/data_science_blogs
+git clone https://github.com/MLWhiz/mlwhiz-blog-index
 cd data_science_blogs/fastapi
 ```
 

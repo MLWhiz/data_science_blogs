@@ -1,4 +1,4 @@
-# Data Science Blogs
+# MLWhiz Blog Index
 
 I have been pretty careless with keeping track of the code I write for my blogs. 
 
@@ -73,47 +73,47 @@ Each series has its own repo. Code links point to the folder for that post. The 
 
 | Deep Learning                                                                  | BlogLink                                                                                                               | CodeLink                                                                          |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| An End to End Introduction to GANs                                             | [Blog](https://www.mlwhiz.com/p/gans)                                | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/GAN_Project)      |
-| Faster and Memory-Efficient PyTorch models using AMP and Tensor Cores          | [Blog](https://towardsdatascience.com/faster-and-memory-efficient-pytorch-models-using-amp-50fd3c8dd7fe)               | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/amp)              |
-| Chatbots aren’t as difficult to make as You Think                              | [Blog](https://www.mlwhiz.com/p/chatbot)                   | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/chatbot)          |
-| End to End Multiclass Image Classification Using Pytorch and Transfer Learning | [Blog](https://www.mlwhiz.com/p/multiclass_image_classification_pytorch) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/compvisblog)      |
-| Using Deep Learning for End to End Multiclass Text Classification              | [Blog](https://www.mlwhiz.com/p/multitextclass)  | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/multiclass)       |
-| Object detection using mask-RCNN on custom Dataset                             | [Blog](https://www.mlwhiz.com/p/weapons)              | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/object_detection) |
-| The Most Complete Guide to PyTorch for Data Scientists | [Blog](https://www.mlwhiz.com/p/pytorch_guide) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/pytorch_guide) |
-| A Layman's Introduction to GANs for Data Scientists using PyTorch | [Blog](https://www.mlwhiz.com/p/pyt_gan) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/pytorchgan) |
-| Understanding Transformers, the Programming Way | [Blog](https://www.mlwhiz.com/p/create-transformer-from-scratch) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/transformers) |
-| How to Create an End to End Object Detector using Yolov5 | [Blog](https://www.mlwhiz.com/p/yolov5) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/yolov5CustomData) |
+| An End to End Introduction to GANs                                             | [Blog](https://www.mlwhiz.com/p/gans)                                | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/GAN_Project)      |
+| Faster and Memory-Efficient PyTorch models using AMP and Tensor Cores          | [Blog](https://towardsdatascience.com/faster-and-memory-efficient-pytorch-models-using-amp-50fd3c8dd7fe)               | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/amp)              |
+| Chatbots aren’t as difficult to make as You Think                              | [Blog](https://www.mlwhiz.com/p/chatbot)                   | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/chatbot)          |
+| End to End Multiclass Image Classification Using Pytorch and Transfer Learning | [Blog](https://www.mlwhiz.com/p/multiclass_image_classification_pytorch) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/compvisblog)      |
+| Using Deep Learning for End to End Multiclass Text Classification              | [Blog](https://www.mlwhiz.com/p/multitextclass)  | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/multiclass)       |
+| Object detection using mask-RCNN on custom Dataset                             | [Blog](https://www.mlwhiz.com/p/weapons)              | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/object_detection) |
+| The Most Complete Guide to PyTorch for Data Scientists | [Blog](https://www.mlwhiz.com/p/pytorch_guide) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/pytorch_guide) |
+| A Layman's Introduction to GANs for Data Scientists using PyTorch | [Blog](https://www.mlwhiz.com/p/pyt_gan) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/pytorchgan) |
+| Understanding Transformers, the Programming Way | [Blog](https://www.mlwhiz.com/p/create-transformer-from-scratch) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/transformers) |
+| How to Create an End to End Object Detector using Yolov5 | [Blog](https://www.mlwhiz.com/p/yolov5) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/yolov5CustomData) |
 
 
 # Data Science
 
 | Data Science                                                   | BlogLink                                                                                                          | CodeLink                                                                                 |
 |----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Applications of MCMC for Cryptography and Optimization         | [Blog](https://www.mlwhiz.com/p/mcmc_algorithm_cryptography)        | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/MCMCApplications)        |
-| Advanced Streamlit Caching                                     | [Blog](https://towardsdatascience.com/advanced-streamlit-caching-6f528a0f9993)                                    | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/caching_stream)          |
-| A Newspaper for COVID-19 — The CoronaTimes                     | [Blog](https://www.mlwhiz.com/p/coronatimes)                                              | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/coronadash)              |
-| Minimal Pandas Subset for Data Scientists on GPU               | [Blog](https://www.mlwhiz.com/p/pandas_gpu)               | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/cudf)                    |
-| How to run your ML Predictions 50 times faster?                | [Blog](https://www.mlwhiz.com/p/hummingbird_faster_ml_preds)         | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/hummingbird)             |
-| How to write Web apps using simple Python for Data Scientists? | [Blog](https://www.mlwhiz.com/p/streamlit) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/streamlit_football_demo) |
-| Using Gradient Boosting for Time Series prediction tasks       | [Blog](https://www.mlwhiz.com/p/timeseries)     | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/time_series_xgb)         |
-| Lightning Fast XGBoost on Multiple GPUs                        | [Blog](https://www.mlwhiz.com/p/xgbparallel)                       | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/xgb_dask)                |
-| How to use SQL with Pandas? | [Blog](https://www.mlwhiz.com/p/pandasql) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/pandasql) |
-| A Layman's Guide for Data Scientists to create APIs in minutes | [Blog](https://www.mlwhiz.com/p/fastapi_for_data_scientists) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/fastapi) |
-| Deployment could be easy: A Data Scientist's Guide to deploy an Image detection FastAPI API using Amazon ec2 | [Blog](https://www.mlwhiz.com/p/deployment_fastapi) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/deployFastApi) |
+| Applications of MCMC for Cryptography and Optimization         | [Blog](https://www.mlwhiz.com/p/mcmc_algorithm_cryptography)        | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/MCMCApplications)        |
+| Advanced Streamlit Caching                                     | [Blog](https://towardsdatascience.com/advanced-streamlit-caching-6f528a0f9993)                                    | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/caching_stream)          |
+| A Newspaper for COVID-19 — The CoronaTimes                     | [Blog](https://www.mlwhiz.com/p/coronatimes)                                              | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/coronadash)              |
+| Minimal Pandas Subset for Data Scientists on GPU               | [Blog](https://www.mlwhiz.com/p/pandas_gpu)               | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/cudf)                    |
+| How to run your ML Predictions 50 times faster?                | [Blog](https://www.mlwhiz.com/p/hummingbird_faster_ml_preds)         | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/hummingbird)             |
+| How to write Web apps using simple Python for Data Scientists? | [Blog](https://www.mlwhiz.com/p/streamlit) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/streamlit_football_demo) |
+| Using Gradient Boosting for Time Series prediction tasks       | [Blog](https://www.mlwhiz.com/p/timeseries)     | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/time_series_xgb)         |
+| Lightning Fast XGBoost on Multiple GPUs                        | [Blog](https://www.mlwhiz.com/p/xgbparallel)                       | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/xgb_dask)                |
+| How to use SQL with Pandas? | [Blog](https://www.mlwhiz.com/p/pandasql) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/pandasql) |
+| A Layman's Guide for Data Scientists to create APIs in minutes | [Blog](https://www.mlwhiz.com/p/fastapi_for_data_scientists) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/fastapi) |
+| Deployment could be easy: A Data Scientist's Guide to deploy an Image detection FastAPI API using Amazon ec2 | [Blog](https://www.mlwhiz.com/p/deployment_fastapi) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/deployFastApi) |
 
 
 # BigData
 
 | BigData                                                         | BlogLink                                                                                                            | CodeLink                                                                                  |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| 4 Graph Algorithms on Steroids for data Scientists with cuGraph | [Blog](https://www.mlwhiz.com/p/cugraph) | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/cuGraph_Benchmark)        |
-| 5 Ways to add a new column in a PySpark Dataframe               | [Blog](https://www.mlwhiz.com/p/sparkcolumns)               | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/spark_columns)            |
-| 100x faster Hyperparameter Search Framework with Pyspark        | [Blog](https://www.mlwhiz.com/p/hyperspark)     | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/spark_hyperparams_tuning) |
-| The Hitchhikers guide to handle Big Data using Spark            | [Blog](https://www.mlwhiz.com/p/spark_hitchhiker)            | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/spark_post)               |
-| The Most Complete Guide to pySpark DataFrames                   | [Blog](https://www.mlwhiz.com/p/spark_df_complete_guide)                   | [Code](https://github.com/MLWhiz/data_science_blogs/tree/master/sparkdf)                  |
+| 4 Graph Algorithms on Steroids for data Scientists with cuGraph | [Blog](https://www.mlwhiz.com/p/cugraph) | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/cuGraph_Benchmark)        |
+| 5 Ways to add a new column in a PySpark Dataframe               | [Blog](https://www.mlwhiz.com/p/sparkcolumns)               | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/spark_columns)            |
+| 100x faster Hyperparameter Search Framework with Pyspark        | [Blog](https://www.mlwhiz.com/p/hyperspark)     | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/spark_hyperparams_tuning) |
+| The Hitchhikers guide to handle Big Data using Spark            | [Blog](https://www.mlwhiz.com/p/spark_hitchhiker)            | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/spark_post)               |
+| The Most Complete Guide to pySpark DataFrames                   | [Blog](https://www.mlwhiz.com/p/spark_df_complete_guide)                   | [Code](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/sparkdf)                  |
 
 
 # Other
 
-- [`sparkwindowfunc`](https://github.com/MLWhiz/data_science_blogs/tree/master/sparkwindowfunc): a notebook on Spark window functions using the coronavirus dataset. It has no matching post link yet.
-- [`resources`](https://github.com/MLWhiz/data_science_blogs/tree/master/resources): a spreadsheet of free and free-to-audit CS and data science courses, from [Become an ML Engineer with these courses from Amazon and Google](https://www.mlwhiz.com/p/mlengineercourses).
+- [`sparkwindowfunc`](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/sparkwindowfunc): a notebook on Spark window functions using the coronavirus dataset. It has no matching post link yet.
+- [`resources`](https://github.com/MLWhiz/mlwhiz-blog-index/tree/master/resources): a spreadsheet of free and free-to-audit CS and data science courses, from [Become an ML Engineer with these courses from Amazon and Google](https://www.mlwhiz.com/p/mlengineercourses).
